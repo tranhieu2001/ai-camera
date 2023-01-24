@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
+import '@tensorflow/tfjs'
 
 const mobilenetModule = require('@tensorflow-models/mobilenet')
 const knnClassifier = require('@tensorflow-models/knn-classifier')
@@ -113,6 +114,7 @@ function App() {
 
     //  Cleanup function
     return () => {}
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
