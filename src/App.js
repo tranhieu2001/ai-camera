@@ -152,7 +152,7 @@ function App() {
           {showRun && <h2>Bấm 'Run'</h2>}
           {isTraining && (
             <h2>
-              'Training:' {parseInt((trainingState / TRAINING_TIME) * 100)}%
+              TRAINING: {parseInt((trainingState / TRAINING_TIME) * 100)}%
             </h2>
           )}
           {showResult && (
