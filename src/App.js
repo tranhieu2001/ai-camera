@@ -101,7 +101,7 @@ function App() {
     } else {
       setFinalResult(false)
     }
-    await sleep(1000)
+    await sleep(100)
     run()
   }
 
